@@ -6,7 +6,6 @@ terraform {
     }
 }
 
-
 provider "google" {
     project = "las-cloudlabs3"
     region  = "us-central1"
