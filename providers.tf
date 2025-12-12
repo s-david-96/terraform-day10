@@ -1,19 +1,19 @@
 
 terraform {
   backend "gcs" {
-    bucket = "newtestbucketherehimanshu"
+    bucket = "newtestbucket"
     prefix = "terraform/state"
     }
 }
 
 
 provider "google" {
-    project = "terracloudlabs91"
+    project = "las-cloudlabs3"
     region  = "us-central1"
   
 }
 resource "google_storage_bucket" "action1" {
-    name     = "newtestbucketherehimanshuaction1"
+    name     = "newtestbucketfromactions"
     location = "US"
   
 }
