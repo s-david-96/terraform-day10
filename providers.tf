@@ -1,7 +1,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "newtestbucket"
+    bucket = "cloudlabs3-bucket1"
     prefix = "terraform/state"
     }
 }
